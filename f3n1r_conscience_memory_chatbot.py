@@ -123,7 +123,7 @@ if st.button("Evaluate"):
     if delta > 0:
         st.subheader("🔁 Revised Response")
         st.write(revised)
-        st.write(f"New Alignment: {revised_alignment:.3f} | Karma Delta: {delta:.3f}")
+        st.write("New Alignment: {revised_alignment:.3f} | Karma Delta: {delta:.3f}")
     if nudge:
         st.info(f"🧠 Symbolic Memory Nudge:
 {nudge}")
